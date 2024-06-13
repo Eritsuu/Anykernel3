@@ -4,15 +4,15 @@
 ### AnyKernel setup
 # global properties
 properties() { '
-kernel.string=Custom Kernel by ChuckDXD @ Telegram
+kernel.string=Custom Kernel by Eritsuu @ Telegram
 do.devicecheck=1
 do.modules=0
 do.systemless=1
 do.cleanup=1
 do.cleanuponabort=0
-device.name1=rosemary
-device.name2=secret
-device.name3=maltose
+device.name1=olives
+device.name2=olive
+device.name3=mi439
 supported.versions=
 supported.patchlevels=
 supported.vendorpatchlevels=
