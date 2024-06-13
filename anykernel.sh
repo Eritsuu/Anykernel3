@@ -35,6 +35,9 @@ ramdisk_compression=auto;
 if [ -d "/dev/block/mapper" ]; then
     blockdev --setrw /dev/block/mapper/system
     blockdev --setrw /dev/block/mapper/vendor
+    patch_cmdline "plain_partitions" ""
+else
+    patch_cmdline "plain_partitions" "plain_partitions"
 fi
 
 ## AnyKernel install
